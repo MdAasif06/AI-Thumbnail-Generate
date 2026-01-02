@@ -8,7 +8,7 @@ import { motion } from "motion/react";
 export default function PricingSection() {
     return (
         <div id="pricing" className="px-4 md:px-16 lg:px-24 xl:px-32">
-            <SectionTitle text1="Pricing" text2="Our Pricing Plans" text3="Flexible pricing options designed to meet your needs — whether you're just getting started or scaling up." />
+            <SectionTitle text1="Pricing" text2="Simple pricing" text3="Choose the plan that fits your creation schedule. Cancel anytime." />
 
             <div className="flex flex-wrap items-center justify-center gap-8 mt-20">
                 {pricingData.map((plan: IPricing, index: number) => (
